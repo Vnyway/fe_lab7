@@ -1,4 +1,10 @@
 import React from "react";
+import {
+  addImg,
+  increaseImg,
+  decreaseImg,
+  deleteImg,
+} from "../functions/task1";
 
 const Image = () => {
   return (
@@ -15,10 +21,10 @@ const Image = () => {
         </a>
       </div>
       <div id="buttons">
-        <button onclick="addImg()">Додати</button>
-        <button onclick="increaseImg()">Збільшити</button>
-        <button onclick="decreaseImg()">Зменшити</button>
-        <button onclick="deleteImg()">Видалити</button>
+        <button onClick={() => addImg()}>Додати</button>
+        <button onClick={() => increaseImg()}>Збільшити</button>
+        <button onClick={() => decreaseImg()}>Зменшити</button>
+        <button onClick={() => deleteImg()}>Видалити</button>
       </div>
     </section>
   );
