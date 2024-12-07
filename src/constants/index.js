@@ -28,8 +28,7 @@ export const goods = [
   },
   {
     id: 5,
-    image:
-      "https://www.easyloft.net/wp-content/uploads/2022/04/d57ee460b4fc7302ab02e0d0bcli-dlya-doma-i-interera-ulichnaya-lavka.jpg",
+    image: "https://vdknn.ru/wp-content/uploads/2020/02/lavka_7500.jpg",
     title: "Лавка",
     price: 500,
   },
