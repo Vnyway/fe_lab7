@@ -1,9 +1,15 @@
 import React from "react";
 
-const GoodsCard = () => {
+const GoodsCard = ({ image, price, title }) => {
   return (
-    <div>
-      <div>GoodsCard</div>
+    <div className="card">
+      <div className="card__image">
+        <img src={image} alt={title} />
+      </div>
+      <div className="card__content">
+        <h3 className="card__content__title">{title}</h3>
+        <span className="card__content__price">${price}</span>
+      </div>
     </div>
   );
 };

@@ -1,10 +1,18 @@
 import React from "react";
 import { GoodsCard } from "../components";
+import { goods } from "../constants";
 
 const Task2 = () => {
   return (
     <>
-      <GoodsCard />
+      {goods.map((item) => (
+        <GoodsCard
+          image={item.image}
+          title={item.title}
+          price={item.price}
+          key={item.id}
+        />
+      ))}
     </>
   );
 };
