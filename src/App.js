@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.css";
 import { Task1, Task2 } from "./pages";
 
 const App = () => {

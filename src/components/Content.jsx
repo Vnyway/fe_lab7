@@ -5,7 +5,7 @@ class Content extends Component {
   render() {
     return (
       <section>
-        <p class="el2" onClick={() => el2Click()}>
+        <p className="el2" onClick={() => el2Click()}>
           Дата і місце народження: 4 серпня 2005, м. Хмельницький
         </p>
         <p>
