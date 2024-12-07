@@ -5,8 +5,10 @@ const Task1 = () => {
   return (
     <>
       <Header />
-      <Content />
-      <Image />
+      <main>
+        <Content />
+        <Image />
+      </main>
     </>
   );
 };

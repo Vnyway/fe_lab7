@@ -2,9 +2,11 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div>
-      <div>Header</div>
-    </div>
+    <header>
+      <h1 id="el1" onclick="el1Click()">
+        Житченко Богдан Русланович
+      </h1>
+    </header>
   );
 };
 
